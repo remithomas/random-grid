@@ -1,0 +1,29 @@
+{
+    "name": "random-grid",
+    "reason": {
+      "react-jsx": 3
+    },
+    "sources": {
+      "dir": "src",
+      "subdirs": true
+    },
+    "package-specs": [
+      {
+        "module": "es6",
+        "in-source": true
+      }
+    ],
+    "suffix": ".bs.js",
+    "namespace": true,
+    "bs-dependencies": [
+      "reason-react",
+      "bs-css"
+    ],
+    "refmt": 3,
+    "warnings": {
+      "error": "+5"
+    },
+    "bsc-flags": [
+      "-bs-super-errors"
+    ]
+  }
